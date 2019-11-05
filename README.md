@@ -1,12 +1,12 @@
 # Knapsack Problem
-Resolución del problema de la mochila usando Backtracking y Programación dinámica.
+Knapsack Problem resolution using Backtracking and Dynamic Programming
 
 ## Uso
-Para usarlo clonar el repo y ejecutar
+Clone the repo and execute as
 
   ```$ ./knapsack <option>```
 
-donde las opciones disponibles son:
+where the available options are:
 
     -f <files> Run algorithms on the all the files listed. Stdin is used by default
   
@@ -20,6 +20,6 @@ donde las opciones disponibles son:
   
     -w <arg> Force knapsack capacity to [arg]. Reads KNAPSACK field on first line of each input file by default
 
-*Hay archivos para testear en el directorio /input*
+*Available files to test in the /input directory*
 
-**Ejemplo:** ```./knapsack -bds -f input/example*.in```
+**Example:** ```./knapsack -bds -f input/example*.in```
